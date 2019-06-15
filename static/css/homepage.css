@@ -1,3 +1,9 @@
+.jumbotron { 
+  background-color: skyblue;
+  color: white;
+  padding: 100px 25px;
+}
+
 .navbar {
   padding: 5 px;
   margin-bottom: 0;
@@ -12,13 +18,46 @@
   border-radius: 0;
 }
 .navbar li a, .navbar .navbar-brand {
-  color: #fff !important;
+  color: white !important;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 12px !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #f4511e !important;
-  background-color: #fff !important;
+  color: salmon !important;
+  background-color: white !important;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
-  color: #fff !important;
+  color: white !important;
 }
+
+#map, .sidenav {
+  padding-top:10 px;
+  height:95%;
+}
+
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane > svg,
+.leaflet-pane > canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	}
+.leaflet-container {
+	overflow: hidden;
+	}
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	        user-select: none;
+	  -webkit-user-drag: none;
+	}
