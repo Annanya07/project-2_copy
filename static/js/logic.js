@@ -2,8 +2,8 @@
 // Creating map object
 var map = L.map("map", {
     center: [41.8486645, -87.7355111],
-    zoomsnap: 10
-  });
+    zoom: 10
+  })
 
 // Adding tile layer
 L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
